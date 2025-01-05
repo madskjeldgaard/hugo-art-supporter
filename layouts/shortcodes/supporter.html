@@ -1,0 +1,70 @@
+{{- $supporter := .Get 0 -}}
+
+<!-- kodakultur -->
+{{- if eq $supporter "kodakultur" -}}
+<div class="supporter-item">
+  <a href="https://kultur.koda.dk/" target="_blank" rel="noopener">
+    <img src="{{ "/koda_kultur_logo_rgb.png" | relURL }}" alt="Kodakultur" class="supporter-logo">
+    <p class="supporter-caption">Koda Kultur</p>
+  </a>
+</div>
+{{- end -}}
+
+<!-- soundartlab -->
+{{- if eq $supporter "soundartlab" -}}
+<div class="supporter-item">
+  <a href="https://soundartlab.org/" target="_blank" rel="noopener">
+    <img src="{{ "/SAL-Logo.png" | relURL }}" alt="Sound Art Lab" class="supporter-logo">
+    <p class="supporter-caption">Sound Art Lab</p>
+  </a>
+</div>
+{{- end -}}
+
+
+<!-- notam -->
+{{- if eq $supporter "notam" -}}
+<div class="supporter-item">
+  <a href="https://notam.no" target="_blank" rel="noopener">
+    <img src="{{ "/notam-logo.png" | relURL }}" alt="Notam" class="supporter-logo">
+    <p class="supporter-caption">Notam</p>
+  </a>
+</div>
+{{- end -}}
+
+<!-- statens kunstfond -->
+{{- if eq $supporter "statenskunstfond" -}}
+<div class="supporter-item">
+  <a href="https://kunst.dk" target="_blank" rel="noopener">
+    <img src="{{ "/statenskunstfond.png" | relURL }}" alt="Statens Kunstfond" class="supporter-logo">
+    <p class="supporter-caption">Statens Kunstfond</p>
+  </a>
+</div>
+
+{{- end -}}
+
+<!-- sancataldo -->
+{{- if eq $supporter "sancataldo" -}}
+<div class="supporter-item">
+  <p class="centered-text">
+  <a class="" href="https://sancataldo.dk" target="_blank" rel="noopener">San Cataldo</a>
+  </p>
+</div>
+{{- end -}}
+
+{{- if eq $supporter "nordicculturepoint" -}}
+<div class="supporter-item">
+  <a href="https://www.nordiskkulturkontakt.org/en/" target="_blank" rel="noopener">
+    <img src="{{ "/nordicculturepoint.png" | relURL }}" alt="Nordic Culture Point" class="supporter-logo">
+    <p class="supporter-caption">Nordic Culture Point</p>
+  </a>
+</div>
+{{- end -}}
+
+{{- if eq $supporter "norwegianartscouncil" -}}
+<div class="supporter-item">
+  <a href="https://www.kulturradet.no/english" target="_blank" rel="noopener">
+    <img src="{{ "/artsandculturenorway.jpg" | relURL }}" alt="Arts and Culture Norway" class="supporter-logo">
+    <p class="supporter-caption">Arts and Culture Norway</p>
+  </a>
+</div>
+{{- end -}}

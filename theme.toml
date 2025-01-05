@@ -1,0 +1,23 @@
+name = 'Hugo Art Supporters'
+license = 'MIT'
+licenselink = 'https://github.com/madskjeldgaard/hugo-art-support/LICENSE'
+description = 'Theme description'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/madskjeldgaard/hugo-art-support'
+
+# If you have a running demo of the theme
+demosite = 'https://github.com/madskjeldgaard/hugo-art-support'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+# If the theme has multiple authors
+authors = [
+]
+
+# If the theme has a single author
+[author]
+  name = 'Mads Kjeldgaard'
+  homepage = 'https://madskjeldgaard.dk'
